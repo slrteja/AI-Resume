@@ -1,7 +1,7 @@
 import ai.clipper.OpenAICompletionClient;
 
 public String generateResume(String prompt) {
-    OpenAICompletionClient client = new OpenAICompletionClient("YOUR_API_KEY");
+    OpenAICompletionClient client = new OpenAICompletionClient("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");
     String model = "text-davinci-002";
     int maxTokens = 2048;
     int n = 1;
